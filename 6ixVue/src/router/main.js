@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import WarningPage from '@/components/WarningPage.vue'
 import Home from '@/components/Home.vue';
+import ArtGeneratif from '@/components/ArtGeneratif.vue';
 
 
 const routes = [
@@ -11,6 +12,10 @@ const routes = [
   {
     path:'/Home',
     component:  Home
+  },
+  {
+    path:'/Design',
+    component: ArtGeneratif
   }
 ];
 
