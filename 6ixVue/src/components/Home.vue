@@ -1,7 +1,7 @@
 
 <script setup>
 import '../assets/home.css'
-import ArtGeneratif from './ArtGeneratif.vue';
+
 // const visualizer = document.querySelector('.visualizer');
 //     const audio = document.getElementById('audio');
 //     const visualizerContainer = document.querySelector('.visualizer-container');
@@ -65,17 +65,19 @@ import ArtGeneratif from './ArtGeneratif.vue';
     <a href="#">ORDER</a>
   </header>
 
-  <section class="animated-banner">
-    <div class="sep"></div>
-        <div class="container">
-          <p class="slide-right">The</p>
-          <p class="slide-left">New</p>
-          <p class="slide-right">Album</p>
-          <p class="slide-left">By</p>
-          <p class="slide-right">6ix9ine</p>
-          <span><p class="slide-left">Is Out!</p></span>
+
+    <section class="animated-banner">
+        <div class="sep"></div>
+            <div class="container">
+            <p class="slide-right">The</p>
+            <p class="slide-left">New</p>
+            <p class="slide-right">Album</p>
+            <p class="slide-left">By</p>
+            <p class="slide-right">6ix9ine</p>
+            <span><p class="slide-left">Is Out!</p></span>
         </div>
-      </section>
+    </section>
+
     
 
     <div class="container">
@@ -90,6 +92,22 @@ import ArtGeneratif from './ArtGeneratif.vue';
           </div>
       </section>
 
-  </div>
-    <ArtGeneratif/>
-  </template>
+    </div>
+    <nav>
+        <RouterLink to="/Design" class="button">Design your Album -></RouterLink>
+    </nav>
+</template>
+<style>
+
+.button{
+    width: max-content;
+    background-color: transparent;
+    color: white;
+    border:none;
+    font-family:  'Jaini Purva', sans-serif;
+    font-size: 24px;
+    float:right
+}
+
+</style>
+

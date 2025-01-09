@@ -1,12 +1,18 @@
 <template>
-  <div class="design">
-    <div class="container">
+
+    <Div id="title">DESIGN YOUR ALBUM</Div>
+    <div class="design">
+        <div class="container">
+            
+        <img id="disque-vinyle" src="../assets/disque-vinyle.png" />
+        <canvas id="artGeneratif"></canvas>
         
-      <img id="disque-vinyle" src="../assets/disque-vinyle.png" />
-      <canvas id="artGeneratif"></canvas>
-      
-    </div><div id="pane" class="pane-container"></div>
-  </div>
+        </div><div id="pane" class="pane-container"></div>
+    </div>
+    <nav>
+        <RouterLink to="/Design" class="Buy">Buy </RouterLink>
+    </nav>
+
 </template>
 
 <script>
@@ -148,6 +154,32 @@ body {
   justify-content: center;
   background-color: #222; /* Fond sombre pour la platine */
 }
+
+.Buy{
+    color: #CF0001;
+    font-size: 50px;
+    padding-top: 2Opx;
+    padding-bottom: 2Opx;
+    font-weight: 600;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-family:'Jaini Purva';
+    float:right;
+}
+.Buy:hover{
+    background:transparent;
+}
+#title{
+    color: #CF0001;
+    font-size: 50px;
+    padding-top: 2Opx;
+    padding-bottom: 2Opx;
+    font-weight: 600;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-family:'Jaini Purva';
+}
+
 .design{
     display:flex;
     gap:'20px';
