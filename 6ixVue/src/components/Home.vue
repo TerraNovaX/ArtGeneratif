@@ -65,6 +65,7 @@ import '../assets/home.css'
     <a href="#">ORDER</a>
   </header>
 
+
     <section class="animated-banner">
         <div class="sep"></div>
             <div class="container">
@@ -76,6 +77,7 @@ import '../assets/home.css'
             <span><p class="slide-left">Is Out!</p></span>
         </div>
     </section>
+
     
 
     <div class="container">
@@ -89,6 +91,7 @@ import '../assets/home.css'
               <p>Après une période de silence marquée par des controverses et une absence médiatique, 6ix9ine signe son grand retour avec "DONNA", un album qui symbolise sa renaissance musicale et personnelle. Dans ce projet explosif, l'artiste new-yorkais mélange ses influences trap agressives à des sonorités plus introspectives, montrant une facette inattendue de sa personnalité.</p>
           </div>
       </section>
+
     </div>
     <nav>
         <RouterLink to="/Design" class="button">Design your Album -></RouterLink>
@@ -107,3 +110,4 @@ import '../assets/home.css'
 }
 
 </style>
+

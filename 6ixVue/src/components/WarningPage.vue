@@ -1,4 +1,4 @@
-<template>
+ <template>
     <div>
         <div class="title">
             warning
@@ -20,7 +20,6 @@
      <nav>
          <RouterLink to="/Home" class="button">press to continue ...</RouterLink>
      </nav>
-
 </template>
 <script>
 </script>
@@ -32,6 +31,7 @@
     border:none;
     font-family:  'Jaini Purva', sans-serif;
     font-size: 24px;
+    float:right
 }
 .button:hover{
     background-color: transparent;
@@ -43,6 +43,8 @@
     text-align: center;
     text-transform:uppercase;
     letter-spacing: 5px;
+    font-family:'Jaini Purva';
+
 }
 .text{
     letter-spacing: 5px;
@@ -52,5 +54,6 @@
     flex-direction: column;
     gap: 20px;
     word-spacing: 10px;
+    font-family:'Jaini Purva';
 }
 </style>

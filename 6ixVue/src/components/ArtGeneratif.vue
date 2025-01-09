@@ -1,4 +1,5 @@
 <template>
+
     <Div id="title">DESIGN YOUR ALBUM</Div>
     <div class="design">
         <div class="container">
@@ -11,6 +12,7 @@
     <nav>
         <RouterLink to="/Design" class="Buy">Buy </RouterLink>
     </nav>
+
 </template>
 
 <script>
@@ -152,6 +154,7 @@ body {
   justify-content: center;
   background-color: #222; /* Fond sombre pour la platine */
 }
+
 .Buy{
     color: #CF0001;
     font-size: 50px;
@@ -176,6 +179,7 @@ body {
     letter-spacing: 5px;
     font-family:'Jaini Purva';
 }
+
 .design{
     display:flex;
     gap:'20px';

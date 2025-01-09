@@ -1,8 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router';
-import WarningPage from './components/WarningPage.vue'
 </script>
-
 <template>
   <main>
     <RouterView></RouterView>
